@@ -1,0 +1,55 @@
+.navBarContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.tabsContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.userContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item {
+  padding:20px
+}
+.link {
+  color : white;
+  text-decoration : none;
+}
+.tabText {
+  padding-left: 10px;
+}
+
+/* medium screen */
+@media all and (max-width: 500px) {
+  .tabsContainer {
+    width: 60%;
+    text-align: center;
+  }
+  .tabsContainer .tabText {
+    display : none;
+  }
+  .tabsContainer .link {
+    width : 33%;
+  }
+}
+
+/* small screen */
+@media all and (max-width: 350px) {
+  .tabsContainer {
+    text-align: center;
+    width: 100%;
+  }
+  .tabText {
+    display : none;
+  }
+  .tabsContainer .link {
+    width : 33%;
+  }
+}

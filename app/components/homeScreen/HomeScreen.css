@@ -1,0 +1,33 @@
+.pageContainer{
+  display: flex;
+  flex-flow: row wrap;
+}
+.asideContainer {
+  flex: 1;
+}
+.timelineContainer {
+  order:2;
+  width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aside-1 {order:1}
+.aside-2 {order:3}
+
+@media all and (max-width: 1000px) {
+  .pageContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+
+  .asideContainer {
+    flex: 1 100%;
+  }
+  .asideContainer { margin-bottom: 10px}
+  .aside-1 {order : 1}
+  .aside-2 {order : 2}
+  .timelineContainer {order : 3; margin-left: 0px; margin-right: 0px}
+
+}

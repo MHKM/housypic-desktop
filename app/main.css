@@ -1,3 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
-  background: cornsilk;
+  padding : 0px;
+  margin : 0px;
+  /*font-family : 'verdana'; */
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #E8F5FD;
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+.containerStyle {
+  background-color: white;
+  border : solid lightgrey 1px;
+  border-radius : 6px;
+  padding: 20px;
+}
+
+.containerHeader {
+  color : #66757f;
+  margin-bottom : 25px;
 }
